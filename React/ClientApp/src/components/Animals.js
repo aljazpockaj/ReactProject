@@ -135,29 +135,29 @@ export class Animals extends Component {
                         })}
                     </tbody>
                 </table>
-                {/*<table>*/}
-                {/*    <thead>*/}
-                {/*        <h3>Mucice</h3>*/}
-                {/*        <tr>*/}
-                {/*            <th>Ime</th>*/}
-                {/*            <th>Starost</th>*/}
-                {/*            <th>Velikost</th>*/}
+                <table>
+                    <thead>
+                        <h3>Mucice</h3>
+                        <tr>
+                            <th>Ime</th>
+                            <th>Starost</th>
+                            <th>Velikost</th>
                         
-                {/*        </tr>*/}
-                {/*    </thead>*/}
-                {/*    <tbody>*/}
-                {/*        {curPage.map((animal) => {*/}
-                {/*            return <tr key={Math.floor(Math.random() * 1000000)}>*/}
-                {/*                <td>{animal.ime}</td>*/}
-                {/*                <center> <td>{animal.starost}</td></center>*/}
-                {/*                <td>{animal.velikost}</td>                              */}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {curPage.map((animal) => {
+                            return <tr key={Math.floor(Math.random() * 1000000)}>
+                                <td>{animal.ime}</td>
+                                <center> <td>{animal.starost}</td></center>
+                                <td>{animal.velikost}</td>                              
                               
-                {/*            </tr>*/}
-                {/*        })}*/}
-                {/*    </tbody>*/}
-                {/*</table>*/}
+                            </tr>
+                        })}
+                    </tbody>
+                </table>
                 <br></br>
-              {/*  <h1><center>{pagesContent}</center></h1>*/}
+                <h1><center>{pagesContent}</center></h1>
           
                 <div class="container d-flex justify-content-center">
                     <ul class="pagination pagination-lg">
