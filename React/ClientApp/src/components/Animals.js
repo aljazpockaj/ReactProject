@@ -103,13 +103,13 @@ export class Animals extends Component {
             pagesContent.push(<a href="#" data-page={i+1} onClick={this.selectPage}>{i + 1}</a>);
         }
              
-        //const psi = this.state.animals.filter(animal => { return animal.pasma != null && animal.pasma.length > 0 });
+        const psi = this.state.animals.filter(animal => { return animal.pasma != null && animal.pasma.length > 0 });
     
-        //const macke = this.state.animals.filter(animal => animal.pasma === undefined);
+        const macke = this.state.animals.filter(animal => animal.pasma === undefined);
 
-        //const psicki = this.state.animals.filter(animal => { return animal.vrsta === "pes"});
+        const psicki = this.state.animals.filter(animal => { return animal.vrsta === "pes"});
 
-        //const mackice = this.state.animals.filter(animal => animal.vrsta === "macka");
+        const mackice = this.state.animals.filter(animal => animal.vrsta === "macka");
 
         const curPage = this.state.currentPage;
         return (
